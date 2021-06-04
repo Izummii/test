@@ -1,9 +1,13 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
 .nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	height: 50px;
+	height: 45px;
 	background-color: #52734d;
 	overflow: hidden;
 
@@ -17,14 +21,25 @@
 	color: white;
 	padding: 14px 20px;
 	text-decoration: none;
-	font-family: century gothic;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
+
+.nav-icons{
+	color: white; 
+	font-size: 15px; 
+}
+
 .nav li a:hover{
 	background-color: #91c788;
+	font-weight: 700;
 }
+
+
 .background{
-	background-image: url("bg7.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	
+	background-image: url('../images/bg1.jpg');
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
