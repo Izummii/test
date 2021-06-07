@@ -8,38 +8,118 @@ body, html {
 	margin: 0;
 	padding: 0;
 	height: 45px;
-	background-color: #52734d;
+	background-color: #1e1f21 ;
 	overflow: hidden;
 
 }
 .nav li{
 	display: inline;
 }
-
+.navb{
+	padding-left: 20px;
+}
 .nav li a{
 	display: inline-block;
 	color: white;
-	padding: 14px 20px;
+	padding: 15px 20px;
+	padding-left: px;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+
 }
 
 .nav-icons{
 	color: white; 
 	font-size: 15px; 
+	margin-left: 0px;
+	
 }
 
 .nav li a:hover{
-	background-color: #91c788;
+	background-color: #4f535c;
 	font-weight: 700;
 }
 
 
 .background{
-	background-image: url('../images/bg1.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url('../images/bg9.jpg');
 	height: 100%;
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
+}
+h1{
+	font-family: 'Cinzel Decorative', cursive;; 
+	color:white ;
+	margin-left: 470px;
+	margin-top: 200px;
+	font-size: 60px;
+}
+h3{
+	font-family: 'Dancing Script', cursive;;
+	color: white;
+	margin-left: 550px;
+	margin-top: 50px;
+	font-size:30px;
+}
+.img img{
+	vertical-align: middle;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+.bg{
+	background-color: white;
+	height: 100%;
+}
+.img1 img{
+	height: 150px;
+	width: 150px;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+.bg1{
+	background-image: linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url('../images/flour.jpg'); ;
+	height: 100%W;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg2{
+	background-color: white;
+	height: 100%;
+}
+.img2 img{
+	height: 150px;
+	width: 150px;
+	margin-top: 100px;
+	margin-left: 200px;
+
+}
+.nav1 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 45px;
+	background-color: #1e1f21 ;
+	overflow: hidden;
+
+}
+.nav1 li{
+	display: inline;
+}
+.navb{
+	padding-left: 20px;
+}
+.nav1 li a{
+	display: inline-block;
+	color: white;
+	padding: 15px 20px;
+	padding-left: px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
