@@ -74,7 +74,7 @@ body, html {
 }
 
 
-.background{
+.background-first{
 	background-image: linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url('../images/bg9.jpg');
 	height: 100%;
 	background-position: center;
@@ -105,20 +105,80 @@ body, html {
 	margin-top: 50px;
 	font-size:30px;
 }
-
-.container1{
-	background-color: black;
+.background-second{
+	background-color: #9a7758;
+	height: 100%;
 }
 
-.recipe{
+.container1{
+	background-color:#9a7758 ;
+}
+
+.menu{
 	text-align: center;
 	width: 25%;
 	float: left;
+	margin-top: 250px;
 }
 
-.recipe-img{
+.menu-img{
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 	margin: auto;
+}
+.menu-heading{
+	color: #3e2f25;
+	font-family:'Dancing Script' ;
+}
+.menu-para{
+	color: #3e2f25;
+}
+.background-third{
+	background-color: antiquewhite;
+	height: 100%;
+}
+.container2{
+	background-color: transparent;
+}
+.container-heading{
+	color: #9a7758;
+	border: 2px solid;
+	margin-left: 1300px;
+	width: 115px;
+	font-size: 20px;
+	padding: 10px;
+}
+.recipe{
+	text-align: center;
+	width: 30%;
+	float: left;
+	margin-top: 200px;
+	margin-left: 40px;
+}
+.recipe-img{
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.recipe-heading{
+	color: #9a7758;
+	font-family:'Dancing Script' ;
+}
+.background-fourth{
+	background-image: linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url('../images/flour.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.container3{
+	background-color: red;
+	height: 50%;
+}
+.star{
+	color: white;
+}
+.container4{
+	background-color: blue;
+	height: 50%;
 }
