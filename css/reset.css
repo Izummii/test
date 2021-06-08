@@ -1,5 +1,11 @@
-body{
+*{
 	margin: 0px;
 	padding: 0px;
 
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

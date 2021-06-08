@@ -12,12 +12,15 @@ body, html {
 	overflow: hidden;
 
 }
+
 .nav li{
 	display: inline;
 }
+
 .navb{
 	padding-left: 20px;
 }
+
 .nav li a{
 	display: inline-block;
 	color: white;
@@ -28,6 +31,7 @@ body, html {
 	font-weight: 300;
 
 }
+
 .nav2 ul {
 	list-style-type: none;
 	margin: 0;
@@ -37,12 +41,15 @@ body, html {
 	overflow: hidden;
 
 }
+
 .nav2 li{
 	display: inline;
 }
+
 .navb{
 	padding-left: 20px;
 }
+
 .nav2 li a{
 	display: inline-block;
 	color: white;
@@ -74,6 +81,7 @@ body, html {
   	background-repeat: no-repeat;
   	background-size: cover;
 }
+
 .icons{
 	
 	color: #926852;
@@ -81,152 +89,36 @@ body, html {
 	margin-left: 10px;
 	font-size: 30px;
 }
-h1{
+
+.heading{
 	font-family: 'Cinzel Decorative', cursive;; 
 	color:white ;
 	margin-left: 470px;
 	margin-top: 200px;
 	font-size: 60px;
 }
-h3{
+
+.side-heading{
 	font-family: 'Dancing Script', cursive;;
 	color: white;
 	margin-left: 550px;
 	margin-top: 50px;
 	font-size:30px;
 }
+
 .container1{
-	border: 5px outset blue;
+	background-color: black;
 }
-.div1 {
-	
-	border: 5px outset blue;
-	
-	vertical-align: middle;
-	border-radius: ;
-	height: 250px;
-	width: 250px;
-	padding: 15px 20px;
-	margin-top: 200px;
-	margin-left: 110px;
-	
-}
-.div2 {
-	
-	
-	vertical-align: middle;
-	border-radius: ;
-	height: 250px;
-	width: 250px;
-	margin-top: 200px;
-	margin-left: 110px;
-	border: 5px outset blue;
-	}
-	.div3 {
-	
-	vertical-align: middle;
-	border-radius: ;
-	height: 250px;
-	width: 250px;
-	margin-top: 200px;
-	margin-left: 110px;
-	border: 5px outset blue;
-	}
-	.div4 {
 
-	
-	vertical-align: middle;
-	border-radius: ;
-	height: 250px;
-	width: 250px;
-	margin-top: 200px;
-	margin-left: 110px;
-	border: 5px outset blue;
-	}
+.recipe{
+	text-align: center;
+	width: 25%;
+	float: left;
+}
 
-.bg{
-	background-color: #9a7758;
-	height: 100%;
-}
-.img h1{
-	font-family: 'Dancing Script', cursive;;
-	font-size: 40px;
-	margin-top: 20px;
-	margin-left: 190px;
-	width: 0px;
-	height: 0px;
-}
-.img1 img{
+.recipe-img{
+	width: 200px;
 	height: 200px;
-	width: 400px;
-	margin-top: 200px;
-	margin-left: 70px;
-}
-.bg1{
-	background-color:whitesmoke;
-	height: 100%;
-	background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 50px;
-}
-.bg1 h1{
-	color: #9a7758;
-	font-family: ;
-	font-size: 50px;
-	margin-top: 10px;
-	margin-left: 10px;
-	height: 0px;
-}
-.bg1 h2{
-	color: #9a7758;
-	margin-top: 10px;
-	margin-left: 1300px;
-	width: 130px;
-  padding: 10px;
-  border: 2px solid gray;
-	border-style: solid;
-	border-color: #9a7758;
-}
-.bg2{
-	background-image:linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url('../images/flour.jpg');;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-.img2 img{
-	height: 150px;
-	width: 150px;
-	margin-top: 100px;
-	margin-left: 200px;
-
-}
-.checked{
-	color: yellow;
-	font-size: ;
-}
-.nav1 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	height: 45px;
-	background-color: #1e1f21 ;
-	overflow: hidden;
-
-}
-.nav1 li{
-	display: inline;
-}
-.navb{
-	padding-left: 20px;
-}
-.nav1 li a{
-	display: inline-block;
-	color: white;
-	padding: 15px 20px;
-	padding-left: px;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	border-radius: 50%;
+	margin: auto;
 }
