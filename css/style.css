@@ -31,7 +31,17 @@ body, html {
 	font-weight: 300;
 
 }
+.logo{
+	color: whitesmoke;
+	margin-left:40px;
+	text-align: center;
+	
+}
+.logo-heading{
+	margin-left: 
+	color: whitesmoke;
 
+}
 .nav2 ul {
 	list-style-type: none;
 	margin: 0;
@@ -93,7 +103,7 @@ body, html {
 }
 .icons{
 	
-	color: #926852;
+	color: whitesmoke;
 	margin-top: 5px;
 	margin-left: 5px;
 	font-size: 20px;
@@ -151,19 +161,30 @@ body, html {
 	background-color: transparent;
 }
 .learn-more{
-	background-color: #9a7758;
-	float: right;
-	font-size: 20px;
-	border-color:#9a7758; 
+	height: 40px;
+	margin-left: 1200px;
+	margin-top: 20px;
+	width: 100px;
+	background-color:#9a7758;
 	color: antiquewhite;
 	border: none;
+	float: right;
+	margin-right: 10px;
+
+}
+.recipe-topheading{
+	color: #9a7758;
+
+}
+.recipe-toppara{
+	color: #9a7758;
 
 }
 .recipe{
 	text-align: center;
 	width: 30%;
 	float: left;
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-left: 40px;
 }
 .recipe-img{
@@ -183,7 +204,7 @@ body, html {
 }
 .container3{
 	background-color:transparent;
-	height: 30%;
+	
 }
 .rate-heading{
 	color: white;
@@ -200,19 +221,22 @@ body, html {
 	
 }
 .button-rate{
-	float: right;
-	margin-top:0px;
-	width: 120px;
-	height: 30px;
-	color: antiquewhite;
+	height: 40px;
+	margin-left: 1200px;
+	width: 100px;
 	background-color:#9a7758;
+	color: antiquewhite;
 	border: none;
+	margin-bottom: 80px;
+	float: right;
+	margin-right: 10px;
+	
 
 
 }
 .container4{
-	background-color: whitesmoke;
-	height: 41%;
+	background-color: transparent;
+	
 }
 .chart{
 	text-align: center;
@@ -355,9 +379,10 @@ body, html {
 	background-color: transparent;
 	
 }
-.bottom{
+.footer{
+	margin-bottom: 500px;
 	text-align: center;
-	width: 20%;
+	width: 25%;
 	float: left;
 
 	
@@ -370,14 +395,31 @@ body, html {
 }
 .bottom-heading{
 	color: whitesmoke;
+	padding-bottom: 20px;
+	font-family:arial;
+	font-size: 25px;
 }
+
 .bottom-para{
 	color: whitesmoke;
+
 }
+.footer-heading{
+	margin-top: 40px;
+	font-size: 20px;
+	color: whitesmoke;
+	font-family:'Pragati Narrow', sans-serif ;
+	padding-right: 80px;
+}
+.footer-para{
+	color: whitesmoke;
+	font-family:arial;
+	}
 .chart{
 	font-size: 250px;
-	margin-left: 10px;
+	margin-left: 60px;
 	color: lightgray;
+	margin-top: 10px;
 }
 .bottom-heading2{
 	color: whitesmoke;
@@ -386,18 +428,36 @@ body, html {
 	width: 50px;
 	font-size: 20px;
 	background-color: black;
-	margin-left: 28px;
+	margin-left: 90px;
 	float: left;
 	font-family: arial;
+	padding: 10px;
+	
 }
 .bottom-para2{
 	color: whitesmoke;
 	margin-right: 100px;
+	margin-top: 10px;
+
 }
 .linear{
 	background-color: lightgray;
 	height: 0.5px;
 	width: 210px;
-	margin-top: 25px;
-	margin-left: 25px;
+	margin-top: 30px;
+	margin-left: 90px;
+
+}
+.linear-footer{
+	background-color: lightgray;
+	height: 0.5px;
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+.footer-icons{
+	color: whitesmoke;
+	margin-top: 10px;
+	margin-right: 35px;
+
 }
