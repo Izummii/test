@@ -81,13 +81,22 @@ body, html {
   	background-repeat: no-repeat;
   	background-size: cover;
 }
+.button-top{
+	height: 30px;
+	width: 40px;
+	margin-top: 50px;
+	background-color:#1e1f21 ;
+	border: none;
+	text-align: center;
+	display: inline-block;
 
+}
 .icons{
 	
 	color: #926852;
-	margin-top: 50px;
-	margin-left: 10px;
-	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 20px;
 }
 
 .heading{
@@ -141,13 +150,14 @@ body, html {
 .container2{
 	background-color: transparent;
 }
-.container-heading{
-	color: #9a7758;
-	border: 2px solid;
-	margin-left: 1300px;
-	width: 115px;
+.learn-more{
+	background-color: #9a7758;
+	float: right;
 	font-size: 20px;
-	padding: 10px;
+	border-color:#9a7758; 
+	color: antiquewhite;
+	border: none;
+
 }
 .recipe{
 	text-align: center;
@@ -163,7 +173,7 @@ body, html {
 }
 .recipe-heading{
 	color: #9a7758;
-	font-family:'Dancing Script' ;
+	font-family:
 }
 .background-fourth{
 	background-image: linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url('../images/flour.jpg');
@@ -172,13 +182,222 @@ body, html {
 	height: 100%;
 }
 .container3{
-	background-color: red;
-	height: 50%;
+	background-color:transparent;
+	height: 30%;
 }
-.star{
+.rate-heading{
 	color: white;
+	margin-left: 30px;
+	padding-top: 40px;
+	font-family:'Cinzel Decorative', cursive;; 
+}
+.rating{
+	color: white;
+	height: 100px;
+	margin-top: 140px;
+	margin-left: 100px;
+	text-align: center;
+	
+}
+.button-rate{
+	float: right;
+	margin-top:0px;
+	width: 120px;
+	height: 30px;
+	color: antiquewhite;
+	background-color:#9a7758;
+	border: none;
+
+
 }
 .container4{
-	background-color: blue;
-	height: 50%;
+	background-color: whitesmoke;
+	height: 41%;
+}
+.chart{
+	text-align: center;
+	width: 20%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 20%;
+
+}
+.chart-img{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.chart-heading{
+	color: #9a7758;
+	font-family:'Roboto', sans-serif;
+	font-size: 20px;
+
+}
+.background-fifth{
+	background-image:linear-gradient(rgba(0,0,0,0.38),rgba(0,0,0,0.38)), url('../images/location.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.icons1{
+	color: whitesmoke;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 20px;
+
+}
+.button-setting{
+	height: 30px;
+	width: 40px;
+	margin-top: 50px;
+	background-color:#1e1f21 ;
+	border: none;
+	text-align: center;
+	display: inline-block;
+}
+.location-heading{
+	color: whitesmoke;
+	font-size: 150px;
+	font-family: 'Pragati Narrow', sans-serif;
+	text-align: center;
+}
+.branch{
+	color: whitesmoke;
+	font-family: 'Pragati Narrow', sans-serif;
+	text-align: center;
+}
+.branch-second{
+	color: whitesmoke;
+	font-family: 'Pragati Narrow', sans-serif;
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+	margin-left:50px;
+	text-align: center;
+}
+.background-sixth{
+	background-color: #1e1f21;
+	height: 100%;
+}
+.team-heading{
+	color: whitesmoke;
+	font-family: 'Pragati Narrow', sans-serif;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+.team-para{
+	color: whitesmoke;
+	font-family: 'Pragati Narrow', sans-serif;
+	margin-left: 20px;
+
+}
+.container6{
+	background-color: transparent;
+
+}
+
+.aboutus{
+	text-align: center;
+	width: 30%;
+	float: left;
+	margin-bottom: 500px;
+	margin-left: 40px;
+}
+.aboutus-button{
+	height: 40px;
+	margin-left: 1300px;
+	width: 150px;
+	background-color:black ;
+	color: whitesmoke;
+	border: none;
+	margin-bottom: 80px;
+}
+.aboutus-heading{
+	color: whitesmoke;
+	font-family: 'Pragati Narrow', sans-serif;
+	text-align: center;
+
+}
+.aboutus-para{
+	color: white;
+
+	
+}
+.aboutus-img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 100px;
+
+}
+.sicon{
+	margin-top: 10px;
+	margin-right: 130px;
+
+
+}
+.aboutus-icons{
+	color: whitesmoke;
+	padding: 10px;
+
+}
+.background-seventh{
+	background-color: #1e1f21;
+	height: 100%
+}
+.line{
+	background-color: #393e46;
+	height: 15px;
+}
+.container7{
+	background-color: transparent;
+	
+}
+.bottom{
+	text-align: center;
+	width: 20%;
+	float: left;
+
+	
+}
+.logo-img{
+	width: px;
+	height: px;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.bottom-heading{
+	color: whitesmoke;
+}
+.bottom-para{
+	color: whitesmoke;
+}
+.chart{
+	font-size: 250px;
+	margin-left: 10px;
+	color: lightgray;
+}
+.bottom-heading2{
+	color: whitesmoke;
+	border: black;, solid;
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	background-color: black;
+	margin-left: 28px;
+	float: left;
+	font-family: arial;
+}
+.bottom-para2{
+	color: whitesmoke;
+	margin-right: 100px;
+}
+.linear{
+	background-color: lightgray;
+	height: 0.5px;
+	width: 210px;
+	margin-top: 25px;
+	margin-left: 25px;
 }
