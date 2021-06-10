@@ -325,7 +325,6 @@ body, html {
 	text-align: center;
 	width: 30%;
 	float: left;
-	margin-bottom: 500px;
 	margin-left: 40px;
 }
 .aboutus-button{
@@ -367,32 +366,28 @@ body, html {
 	padding: 10px;
 
 }
+
+
 .background-seventh{
 	background-color: #1e1f21;
-	height: 100%
+	height: 50%
 }
 .line{
 	background-color: #393e46;
 	height: 15px;
 }
-.container7{
-	background-color: transparent;
-	
-}
+
 .footer{
-	margin-bottom: 500px;
 	text-align: center;
 	width: 25%;
-	float: left;
-
-	
+	float: left;	
 }
+
 .logo-img{
-	width: px;
-	height: px;
 	margin-left: 20px;
 	margin-top: 0px;
 }
+
 .bottom-heading{
 	color: whitesmoke;
 	padding-bottom: 20px;
@@ -404,6 +399,7 @@ body, html {
 	color: whitesmoke;
 
 }
+
 .footer-heading{
 	margin-top: 40px;
 	font-size: 20px;
@@ -411,16 +407,19 @@ body, html {
 	font-family:'Pragati Narrow', sans-serif ;
 	padding-right: 80px;
 }
+
 .footer-para{
 	color: whitesmoke;
 	font-family:arial;
-	}
+}
+
 .chart{
 	font-size: 250px;
 	margin-left: 60px;
 	color: lightgray;
 	margin-top: 10px;
 }
+
 .bottom-heading2{
 	color: whitesmoke;
 	border: black;, solid;
@@ -448,6 +447,7 @@ body, html {
 	margin-left: 90px;
 
 }
+
 .linear-footer{
 	background-color: lightgray;
 	height: 0.5px;
@@ -455,6 +455,7 @@ body, html {
 	margin-top: 30px;
 	margin-left: 90px;
 }
+
 .footer-icons{
 	color: whitesmoke;
 	margin-top: 10px;
